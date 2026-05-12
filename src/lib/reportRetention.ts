@@ -1,0 +1,1 @@
+export const REPORT_FILE_SIGNED_URL_TTL_SECONDS = 10 * 365 * 24 * 60 * 60;

@@ -1,0 +1,10 @@
+project_id = "ilkvsrbhfkenhezsnldb"
+
+[functions.ai-summary]
+verify_jwt = false
+
+[functions.patient-chat]
+verify_jwt = false
+
+[functions.create-hospital-doctor]
+verify_jwt = false
