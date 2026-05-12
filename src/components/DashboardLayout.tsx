@@ -72,7 +72,7 @@ export default function DashboardLayout({ children, title, subtitle, nav }: Dash
               <div className="w-8 h-8 rounded-lg bg-card border border-border overflow-hidden flex items-center justify-center shrink-0">
                 <img src="/logo-mark.png" alt="TurantCare" className="w-full h-full object-contain" />
               </div>
-              <span className="font-display font-bold hidden sm:inline">TurantCare</span>
+              <img src="/logo-wordmark.png" alt="TurantCare" className="hidden h-6 w-auto max-w-[150px] object-contain sm:block" />
             </Link>
           </div>
 

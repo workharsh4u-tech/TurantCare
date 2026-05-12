@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import { Clock, FileText, LogOut, ShieldCheck } from "lucide-react";
+import { Clock, LogOut, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/hooks/useAuth";
 import { signOut } from "@/lib/auth";
@@ -18,10 +18,10 @@ export default function VerificationPending() {
       <header className="border-b border-border bg-card/80">
         <div className="container mx-auto flex items-center justify-between px-6 py-4">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-lg gradient-primary flex items-center justify-center">
-              <FileText className="w-5 h-5 text-primary-foreground" />
+            <div className="w-9 h-9 rounded-lg bg-card border border-border overflow-hidden flex items-center justify-center shrink-0">
+              <img src="/logo-mark.png" alt="TurantCare" className="w-full h-full object-contain" />
             </div>
-            <span className="font-display text-xl font-bold">TurantCare</span>
+            <img src="/logo-wordmark.png" alt="TurantCare" className="h-7 w-auto max-w-[180px] object-contain" />
           </Link>
           <Button variant="ghost" size="sm" onClick={handleSignOut}>
             <LogOut className="w-4 h-4 mr-1.5" /> Sign out

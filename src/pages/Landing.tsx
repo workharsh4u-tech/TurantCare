@@ -28,7 +28,7 @@ export default function Landing() {
             <div className="w-9 h-9 rounded-lg bg-card border border-border overflow-hidden flex items-center justify-center shrink-0">
               <img src="/logo-mark.png" alt="TurantCare" className="w-full h-full object-contain" />
             </div>
-            <span className="font-display text-xl font-bold">TurantCare</span>
+            <img src="/logo-wordmark.png" alt="TurantCare" className="h-7 w-auto max-w-[180px] object-contain" />
           </Link>
           <div className="flex items-center gap-3">
             <Link to="/auth">
